@@ -1,0 +1,55 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side{
+    display: grid;
+    
+}
+
+.titles{
+    font-style: italic;
+    font-weight: 900;
+}
+
+.image{
+   max-width: 15%;
+   height: 10%;
+   margin-top: 10px;
+   margin-bottom: 8px;
+   margin-left: 8px;
+   margin-right: 10px;
+   padding: 10px;
+}
+
+.space{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper > p {
+   
+    width: 50%;
+    text-align: center;
+}
+
+.right-side{
+    float: right;
+}
+
+.left-side{
+    float: left;
+}
